@@ -16,7 +16,7 @@
 :root{
     --first-font: beatrix;
     --second-font: lilly;
-    --main-font: oceanside 
+    --main-font: oceanside; 
 
     font-family: var(--main-font)
 }
