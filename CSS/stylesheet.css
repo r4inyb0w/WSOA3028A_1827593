@@ -1,28 +1,29 @@
 @font-face{
-    font-family: beatrix;
-    src:url(../Fonts/Beatrix\ Signature\ DEMO.ttf)
+    font-family: paris;
+    src:url(../Fonts/Parisienne-Regular.ttf)
 }
 
 @font-face{
-    font-family: lilly;
-    src:url(../Fonts/Lilly__.ttf)
+    font-family: josefin;
+    src:url(../Fonts/JosefinSlab-Regular.ttf)
 }
 
 @font-face{
-    font-family: oceanside;
-    src:url(../Fonts/Oceanside\ Typewriter.ttf)
+    font-family: openSans;
+    src:url(../Fonts/OpenSansCondensed-Light.ttf)
 }
 
 :root{
-    --first-font: beatrix;
-    --second-font: lilly;
-    --main-font: oceanside; 
+    --first-font: paris;
+    --second-font: josefin;
+    --main-font: openSans; 
 
     font-family: var(--main-font)
 }
 
 h1{
-    font-family: var(--first-font);
+    font-family: var(--first-font);  
+    font-size: 60px;
 }
 
 h2{
