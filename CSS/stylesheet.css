@@ -51,9 +51,17 @@ section{
     padding-bottom: 20px;
 }
 
+content-wrap{
+    padding-bottom: 80px;
+}
+
 footer{
     text-align: center; 
-    padding-top: 50px;
+    padding-top: 10px;
+    background-color: #ea8a8a;
+    position: relative;
+    height: 80px;
+    font-weight: bold;
 }
 
 .center{
