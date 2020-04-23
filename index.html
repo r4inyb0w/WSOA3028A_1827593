@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <script type="module" src="index.js" async></script>
+    <script type="module" src="/WSOA3028A_1827593/JS/index.js" async></script>
+    <script type="module" src="/WSOA3028A_1827593/JS/navBar.js" async></script>
     <link href="CSS/stylesheet.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="description" content="Macey Daniels: Home Page">
@@ -21,15 +22,13 @@
     </title>
 </head>
 
-<body>
-    <center><img width=100% src="Images/banners.png"
+<body onload="createNavBar()">
+    <header><img width=100% src="Images/banners.png"
             alt="Running ribbon with the slogan 'We all bleed the same colour'">
-    </center>
-    <nav>
-        <a href="BlogPosts/BlogPost1.html">My Blogs</a>
-        <a href="FlowersPage/MyFlowers.html">My Flowers</a>
-        <a href="PoliticsPage/MyPolitics.html">My Politics</a>
-    </nav>
+    </header>
+
+    <nav></nav>
+
     <center> <img width=10% height=10% src="Images/theLogo.png" alt="Logo, black-line daisy, from https://imgbin.com/">
     </center>
     <h1 style="text-align: center; padding-top: 0%;">
@@ -72,16 +71,16 @@
             My Favourite Floral Arrangement
         </h3>
         <p>
-            <a href="FlowersPage/Flowers.html#Good_Wishes">Good Wishes bouquet</a>
+            <a href="FlowersPage/MyFlowers.html#Good_Wishes">Good Wishes bouquet</a>
         </p>
         <h3>
             My Top Pick Political Piece
         </h3>
         <p>
-            <a href="PoliticsPage/Politics.html#PurpleMarch">The Purple March</a>
+            <a href="PoliticsPage/MyPolitics.html#PurpleMarch">The Purple March</a>
         </p>
     </section>
-    <!--<button type="button" style="float: right">Info</button>-->
+    <button type="button" style="float: right">Info</button>
     <footer style="text-align: center; padding-top: 50px;">
         <section>
             Contact Number: 011 450 8221 &nbsp;&nbsp;&nbsp;&nbsp; P.O. Box 1212, Highway Gardens, Edenvale
