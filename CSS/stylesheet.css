@@ -91,7 +91,7 @@ a:active {
     color: black;
 }
 
-a:hover {
+a.main:hover {
     color:#ea8a8a;
     font-size: 20px;
 } 
