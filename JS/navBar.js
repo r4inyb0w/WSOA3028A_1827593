@@ -17,6 +17,7 @@ function createNavBar() {
                  <li><a href="/WSOA3028A_1827593/BlogPosts/Online-learning-and-teaching.html">Online learning and teaching</a></li>
                  <li><a href="/WSOA3028A_1827593/BlogPosts/Character-exploration-Flowers-and-their-meanings.html">Character exploration: Flowers and their meanings</a></li>
                  <li><a href="/WSOA3028A_1827593/BlogPosts/How-would-Macey-Daniels-deal-with-the-COVID-19-pandemic.html">How would Macey Daniels deal with the COVID-19 pandemic?</a></li>
+                 <li><a href="/WSOA3028A_1827593/BlogPosts/So-we-are-in-the-late-80s.html">So we are in the late 80s?</a></li>
                 </ul>
             </li>
             <li><a href="/WSOA3028A_1827593/FlowersPage/MyFlowers.html">My Flowers</a></li>

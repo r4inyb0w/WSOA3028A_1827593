@@ -31,11 +31,13 @@ h2{
     font-family: var(--second-font);
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 30px;
 }
 
 h3{
     font-family: var(--second-font);
     padding-top: 20px;
+    font-size: 20px;
 }
 
 a{
