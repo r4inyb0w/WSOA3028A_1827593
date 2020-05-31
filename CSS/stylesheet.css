@@ -80,6 +80,29 @@ body{
     padding: 0;
 }
 
+.homeBackground {
+   
+    background-image: url("../Images/homeBackgroundImg1.jpeg");
+    background-attachment: unset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.homePanel {
+    background-color: #f2f2f2;
+    margin-left: 25%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+.homeDivide {
+    padding-top: 1rem;
+    font-size: larger
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -93,9 +116,20 @@ a:active {
     color: black;
 }
 
+a.main{
+    color: #ea8a8a;
+}
+
+a.main:visited{
+    color: #ea8a8a;
+}
+
+a.main:active{
+    color: #ea8a8a;
+}
+
 a.main:hover {
-    color:#ea8a8a;
-    font-size: 20px;
+    font-weight: bold;
 } 
 
 nav{
