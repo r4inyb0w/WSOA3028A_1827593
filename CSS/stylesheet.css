@@ -85,7 +85,7 @@ body{
     background-image: url("../Images/homeBackgroundImg1.jpeg");
     background-attachment: unset;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%
 }
 
