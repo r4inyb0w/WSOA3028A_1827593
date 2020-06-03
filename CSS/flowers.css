@@ -1,0 +1,19 @@
+
+.flowersBackground {
+   
+    background-image: url("../Images/flowerbg1.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: repeat;
+    background-size: 100%
+}
+
+.flowersPanel {
+    background-color: #f2f2f2;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 50%;
+    text-align: center;
+}
