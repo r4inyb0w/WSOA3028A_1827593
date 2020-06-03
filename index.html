@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
-    <script src="/WSOA3028A_1827593/JS/navBar.js" async></script>
+    <script src="/WSOA3028A_1827593/JS/index.js" async></script>
+    <script src="/WSOA3028A_1827593/JS/footerInfo.js" async></script>
     <link href="CSS/stylesheet.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="description" content="Macey Daniels: Home Page">
     <meta name="author" content="Samantha Thurgood 1827593">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="https://r4inyb0w.github.io/WSOA3028A_1827593/Images/theLogo.png" type="image/png">
 
     <meta property="og:title" content="Macey Daniels" />
     <meta property="og:type" content="website" />
@@ -21,15 +24,15 @@
     </title>
 </head>
 
-<body class="homeBackground" onload='createNavBar()'>
+<body class="homeBackground" onload='createNavBar(); initialiseLatestBlogPost(), createFooterInfo()'>
 
-    <header><img style="margin-bottom: -0.3rem;" width=100% src="Images/banners.png"
-            alt="Running ribbon with the slogan 'We all bleed the same colour'">
+    <header><img style="margin-top: -0.1rem; margin-bottom: -0.4rem; position: fixed;" width=100%
+            src="Images/banners.png" alt="Running ribbon with the slogan 'We all bleed the same colour'">
     </header>
 
-    <nav></nav>
+    <nav style="margin-top: 40px;"></nav>
 
-    <h1 class="homePanel" style="padding-bottom: 10px;">
+    <h1 class="homePanel" style="padding-top: 110px;">
         Macey Daniels
     </h1>
 
@@ -43,17 +46,22 @@
             Howzit! Thanks for clicking on my website.
         </p>
         <p class="homeDivide">
-            My name is Macey Daniels. I am 22-years-old and I run a florist call Daniels' Daisies. You should check
+            My name is Macey Daniels. I am 22-years-old and I run a florist call Daniels' Daisies. You should
+            check
             it
             out!
-            My mom passed the family business on to me when I graduated from the University of the Witwatersrand,
+            My mom passed the family business on to me when I graduated from the University of the
+            Witwatersrand,
             with
             my
-            own business degree. I love flowers and all their different meanings. My favourite flower is the blue
+            own business degree. I love flowers and all their different meanings. My favourite flower is the
+            blue
             iris -
             it
-            represents hope, the hope I have for our country. Mandela was released from prison earlier this year and so
-            my hope grows even stronger. You can explore more about flowers and my floral arrangements on this site. I'm
+            represents hope, the hope I have for our country. Mandela was released from prison earlier this year
+            and so
+            my hope grows even stronger. You can explore more about flowers and my floral arrangements on this
+            site. I'm
             also
             using
             this
@@ -71,9 +79,9 @@
         <h3>
             Latest Blog
         </h3>
-        <a class="main" href="BlogPosts/Racial-Bias-in-AI.html">Read more about:
-            Racial Bias in AI</a>
-        <!-- <strong class="latestBlogPost"></strong>-->
+        <!--<a class="main" href="BlogPosts/Racial-Bias-in-AI.html">Read more about:
+            Racial Bias in AI</a>-->
+        <a class="main" id="latestBlogPost"></a>
         <h3>
             My Favourite Floral Arrangement
         </h3>
@@ -84,17 +92,9 @@
         <a class="main" href="PoliticsPage/MyPolitics.html#PurpleMarch">The Purple March</a>
     </section>
 
-    <footer style="height: 120px;">
-        <section class="h-card">
-            <p style="display: inline; padding-right: 20px;" class="p-tel">Contact Number: 011 450 8221 </p>
-            <p style="display: inline; padding-right: 20px;" class="p-post-office-box"> P.O. Box 1212, Highway Gardens,
-                Edenvale </p>
-            <p style="display: inline;" class="p-street-address"> Daniels' Daisies Address: 98 1st Rd, Dunvegan,
-                Johannesburg, 2090</p>
-            <p>Latest Update: 20 March 1990</p>
-            <p style="font-size: 10px;">Flower logo from https://imgbin.com/ Background image from:
-                https://www.pexels.com/photo/close-up-photo-of-flowers-2567106/</p>
-        </section>
+    <footer>
+        <p style="font-size: 10px;">Flower logo from https://imgbin.com/ Background image from:
+            https://www.pexels.com/photo/close-up-photo-of-flowers-2567106/</p>
     </footer>
 </body>
 <html>

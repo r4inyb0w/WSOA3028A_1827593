@@ -1,4 +1,5 @@
 function createFooterInfo() {
+
     document.getElementsByTagName("footer")[0].innerHTML +=
         ` <section class="h-card">
         <p style="display: inline; padding-right: 20px;" class="p-tel">Contact Number: 011 450 8221 </p>
