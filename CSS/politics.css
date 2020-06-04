@@ -24,6 +24,19 @@ span .posters{
 }
 
 .poster{
-    width: 12rem;
+    width: 25%;
     margin-left: 2rem;
+}
+
+@media(min-width: 320px) and (max-width: 480px){
+    .politicsPanel {
+        margin-left: 8%;
+        width: 75%;
+        text-align: center;
+    }
+
+    .poster{
+        width: 25%;
+        margin-left: 0.5rem;
+    }
 }

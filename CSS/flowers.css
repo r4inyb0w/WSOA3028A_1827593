@@ -17,3 +17,11 @@
     width: 50%;
     text-align: center;
 }
+
+/*phone*/
+@media(min-width: 320px) and (max-width: 480px){
+    .flowersPanel {
+        margin-left: 8%;
+        width: 75%;
+    }
+}

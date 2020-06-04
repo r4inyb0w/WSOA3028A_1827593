@@ -10,13 +10,40 @@
     padding-left: 25%;
     width: 50vw;
     text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .nextPrev{
     width: 10vw;
-    margin-left: 20rem;
-    margin-top: 5rem;
-    font-size: 2rem;
+    margin-left: 180%;
+    margin-top: 30%;
+    font-size: 200%;
     background-color: #ebd5d5;
     text-align: center;
+}
+
+/*tablet*/
+@media(min-width: 500px) and (max-width: 700px){
+
+}
+
+/*phone*/
+@media(min-width: 320px) and (max-width: 480px){
+    .arranged{
+        display: block;
+    }
+    
+    .blogs{
+        width: 70vw;
+        padding-left: 0%;
+        margin-left: 10%;
+    }
+
+    .nextPrev{
+        width: 40vw;
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
 }

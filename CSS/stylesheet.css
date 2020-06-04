@@ -57,9 +57,8 @@ footer{
     text-align: center; 
     background-color: #ea8a8a;
     font-weight: bold;
-
     position: relative;
-    height: 120px;
+    height: 10%;
     width: 100%;
     margin-bottom: 0;
     margin-left: 0;
@@ -186,4 +185,51 @@ nav ul li ul li a{
 
 nav ul li ul li a:hover{
     background-color: #ea8a8a;
+}
+
+/*phone*/
+@media(min-width: 320px) and (max-width: 480px){
+    nav ul li a {
+        padding: 8px 10px;
+    }
+
+    nav ul li ul li{
+        width: 200px;
+    }
+    
+    nav ul li ul li a{
+        padding: 4px 14px;
+        font-size: 12px;
+    }
+
+    h1{
+        font-family: var(--first-font);  
+        font-size: 40px;
+        padding-top: 70px;
+    }
+
+    h2{
+        font-family: var(--second-font);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+
+    footer{
+        height: 5%;
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-size: 80%;
+    }
+    
+    .homePanel {
+        margin-left: 8%;
+        width: 75%;
+    }
+    
+    .homeDivide {
+        padding-top: 1rem;
+        font-size: larger
+    }
 }
