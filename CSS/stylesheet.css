@@ -234,7 +234,7 @@ nav ul li ul li a:hover{
     }
 }
 
-@media(orientation:landscape){
+@media(max-width: 812px) and (orientation:landscape){
     nav ul li ul li{
         width: 300px;
     }
