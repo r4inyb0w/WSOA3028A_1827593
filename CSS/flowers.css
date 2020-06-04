@@ -25,3 +25,12 @@
         width: 75%;
     }
 }
+
+/*tablet*/
+@media(max-width: 1024px) and (orientation:portrait){
+    
+    .flowersPanel {
+       margin-left: 10%;
+       width: 75%;
+   }
+}

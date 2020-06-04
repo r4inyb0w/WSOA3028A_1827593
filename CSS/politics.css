@@ -28,6 +28,7 @@ span .posters{
     margin-left: 2rem;
 }
 
+/*phone*/
 @media(min-width: 320px) and (max-width: 480px){
     .politicsPanel {
         margin-left: 8%;
@@ -40,3 +41,12 @@ span .posters{
         margin-left: 0.5rem;
     }
 }
+
+/*tablet*/
+@media(max-width: 1024px) and (orientation:portrait){
+    .politicsPanel {
+         margin-left: 10%;
+         width: 75%;
+         text-align: center;
+     }
+ }
