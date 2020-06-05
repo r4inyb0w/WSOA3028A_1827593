@@ -13,6 +13,7 @@ var BlogPosts = [
     { title: 'Character exploration: Flowers and their meanings', date: new Date('2020/03/20'), href: '/WSOA3028A_1827593/BlogPosts/Character-exploration-Flowers-and-their-meanings.html' },
     { title: 'How would Macey Daniels deal with the COVID-19 pandemic?', date: new Date('2020-03-25'), href: '/WSOA3028A_1827593/BlogPosts/How-would-Macey-Daniels-deal-with-the-COVID-19-pandemic.html' },
     { title: 'So we are in the late 80s?', date: new Date('2020/04/24'), href: '/WSOA3028A_1827593/BlogPosts/So-we-are-in-the-late-80s.html' },
+    { title: 'A close reading: Towards a study of information geographies, Graham et al', date: new Date('2020/05/01'), href: '/WSOA3028A_1827593/BlogPosts/Information-Geographies.html' },
     { title: 'A little example of the digital divide', date: new Date('2020/05/15'), href: '/WSOA3028A_1827593/BlogPosts/A-little-example-of-the-digital-divide.html' },
     { title: 'Racial Bias in AI', date: new Date('2020/05/22'), href: '/WSOA3028A_1827593/BlogPosts/Racial-Bias-in-AI.html' },
 ];
