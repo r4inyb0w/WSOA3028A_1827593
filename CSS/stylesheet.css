@@ -40,6 +40,11 @@ h3{
     font-size: 20px;
 }
 
+h4{
+    font-family: var(--second-font);
+    padding-top: 15px;
+}
+
 a{
     padding-top: 10px;
 }
