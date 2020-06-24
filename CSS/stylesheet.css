@@ -193,6 +193,10 @@ nav ul li ul li a:hover{
     background-color: #ea8a8a;
 }
 
+img.twitter:hover{
+   width: 1.2%;
+}
+
 /*phone*/
 @media(min-width: 320px) and (max-width: 480px){
     nav ul li a {
