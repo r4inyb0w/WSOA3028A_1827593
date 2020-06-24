@@ -18,8 +18,8 @@ function createFooterInfo() {
             Edenvale </p>
         <p style="display: inline; padding-right: 20px;" class="p-street-address"> Daniels' Daisies Address: 98 1st Rd, Dunvegan,
             Johannesburg, 2090</p>
-        <p style="display: inline; ">
-            <a href="https://mobile.twitter.com/FlowerProtest89"><img class="twitter" width= 1%;
+        <p>
+            <a href="https://mobile.twitter.com/FlowerProtest89"><img width= 15rem;
             src="` + currSource +
         `" alt="Twitter logo"></a>
         </p>
