@@ -1,4 +1,15 @@
+function getSource() {
+    let source = window.location;
+    if (source == "https://r4inyb0w.github.io/WSOA3028A_1827593/index.html") {
+        return ("../WSOA3028A_1827593/Images/twitterLogo.png")
+    } else {
+        return ("../Images/twitterLogo.png")
+    }
+}
+
 function createFooterInfo() {
+
+    let currSource = getSource();
 
     document.getElementsByTagName("footer")[0].innerHTML +=
         ` <section class="h-card">
@@ -9,8 +20,8 @@ function createFooterInfo() {
             Johannesburg, 2090</p>
         <p style="display: inline; ">
             <a href="https://mobile.twitter.com/FlowerProtest89"><img class="twitter" width= 1%;
-            src="../WSOA3028A_1827593/Images/twitterLogo.png"
-            alt="Twitter logo"></a>
+            src="` + currSource +
+        `" alt="Twitter logo"></a>
         </p>
         <p>Latest Update: 20 March 1990</p>
     </section>`;
