@@ -57,6 +57,7 @@ function createNavBar() {
             </li >
         <li><a href="/WSOA3028A_1827593/FlowersPage/MyFlowers.html">My Flowers</a></li>
         <li><a href="/WSOA3028A_1827593/PoliticsPage/MyPolitics.html">My Politics</a></li>
+        <li><a href="/WSOA3028A_1827593/ProtestPage/MyProtest.html">My Protest</a></li>
         </ul > `;
 }
 

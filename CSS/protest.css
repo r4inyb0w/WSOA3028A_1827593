@@ -1,0 +1,34 @@
+.protestBackground {
+   
+    background-image: url("../Images/purpleflowers.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: 100%
+}
+
+.protestPanel {
+    background-color: #f2f2f2;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+/*phone*/
+@media(min-width: 320px) and (max-width: 480px){
+    .protestPanel {
+        margin-left: 8%;
+        width: 75%;
+    }
+}
+
+/*tablet*/
+@media(max-width: 1024px) and (orientation:portrait){
+    .protestPanel {
+         margin-left: 10%;
+         width: 75%;
+     }
+ }
