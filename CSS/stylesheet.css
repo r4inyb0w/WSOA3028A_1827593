@@ -166,6 +166,7 @@ nav ul li a {
 
 nav ul li a:hover {
    font-weight: bold;
+   background-color: #ea8a8a;
    color: black;
 }
 
@@ -178,6 +179,7 @@ nav ul li ul {
 
 nav ul li:hover ul {
     display: block;
+    columns: 2;
 }
 
 nav ul li ul li{
@@ -198,6 +200,10 @@ nav ul li ul li a:hover{
     nav ul li a {
         padding: 13px 8px;
         font-size: 100%;
+    }
+
+    nav ul li:hover ul {
+        columns: 1;
     }
 
     nav ul li ul li{
@@ -243,7 +249,7 @@ nav ul li ul li a:hover{
 
 @media(max-width: 812px) and (orientation:landscape){
     nav ul li ul li{
-        width: 300px;
+        width: 200px;
     }
     
     nav ul li ul li a{
@@ -263,5 +269,9 @@ nav ul li ul li a:hover{
     .homeDivide {
         padding-top: 1rem;
         font-size: larger
+    }
+
+    nav ul li ul li{
+        width: 200px;
     }
 }
