@@ -16,6 +16,8 @@ var BlogPosts = [
     { title: 'A close reading: Towards a study of information geographies', date: new Date('2020/05/01'), href: '/WSOA3028A_1827593/BlogPosts/Information-Geographies.html' },
     { title: 'A little example of the digital divide', date: new Date('2020/05/15'), href: '/WSOA3028A_1827593/BlogPosts/A-little-example-of-the-digital-divide.html' },
     { title: 'Racial Bias in AI', date: new Date('2020/05/22'), href: '/WSOA3028A_1827593/BlogPosts/Racial-Bias-in-AI.html' },
+    { title: 'Response: Making a Feminist Internet in Africa', date: new Date('2020/06/19'), href: '/WSOA3028A_1827593/BlogPosts/Making-a-Feminist-Internet-in-Africa.html' },
+    { title: 'My External Dependency', date: new Date('2020/06/26'), href: '/WSOA3028A_1827593/BlogPosts/My-External-Dependency.html' },
 ];
 
 function initialiseLatestBlogPost() {
