@@ -202,21 +202,18 @@ nav ul li ul li a:hover{
 /*phone*/
 @media(min-width: 320px) and (max-width: 480px){
     nav ul li a {
-        padding: 13px 8px;
-        font-size: 100%;
+        padding: 13px 6px;
+        font-size: 90%;
     }
 
     nav ul li:hover ul {
         columns: 1;
-    }
-
-    nav ul li ul li{
         width: 200px;
     }
     
     nav ul li ul li a{
-        padding: 4px 14px;
-        font-size: 12px;
+        padding: 4px 10px;
+        font-size: 10px;
     }
 
     h1{
@@ -251,7 +248,7 @@ nav ul li ul li a:hover{
     }
 }
 
-@media(max-width: 812px) and (orientation:landscape){
+@media(max-width: 823px) and (orientation:landscape){
     nav ul li ul li{
         width: 200px;
     }
