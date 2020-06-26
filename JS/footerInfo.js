@@ -1,6 +1,6 @@
 function getSource() {
     let source = window.location;
-    if (source == "https://r4inyb0w.github.io/WSOA3028A_1827593/index.html") {
+    if (source == "https://r4inyb0w.github.io/WSOA3028A_1827593/index.html" || source == "https://r4inyb0w.github.io/WSOA3028A_1827593/" || source == "https://r4inyb0w.github.io/WSOA3028A_1827593/#") {
         return ("../WSOA3028A_1827593/Images/twitterLogo.png")
     } else {
         return ("../Images/twitterLogo.png")
