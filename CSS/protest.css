@@ -19,15 +19,27 @@
 
 
 .twitter-tweet{
-    margin:auto;
+    margin: auto;
 }
 
 
 /*phone*/
 @media(min-width: 320px) and (max-width: 480px){
     .protestPanel {
-        margin-left: 8%;
+        margin-left: 4%;
         width: 75%;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 380px){
+    .twitter-tweet{
+        margin-left: -0.5rem;
+    }
+}
+
+@media(min-width: 310px) and (max-width: 380px){
+    .twitter-tweet{
+        margin-left: -1.25rem;
     }
 }
 
