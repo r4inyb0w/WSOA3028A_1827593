@@ -12,7 +12,7 @@ fetch(url, { headers: 'Access-Control-Allow-Origin' + myHeaders })
     })
     .catch((error) => console.warn("My Warning", error));
 
-console.log("yo!");
+
 /*
 
 function createNode(elem) {
