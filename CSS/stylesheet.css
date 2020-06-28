@@ -147,6 +147,7 @@ nav{
     background-color: #ebd5d5;
     z-index: 9999;
     position: fixed;
+    box-shadow: 0 0 15px 0px #685454;
 }
 
 nav ul{
@@ -178,7 +179,8 @@ nav ul li ul {
     display: none;
     position: absolute;
     background-color: #ebd5d5;
-    padding: 10px
+    padding: 10px;
+    box-shadow: 0 0 5px 0px #685454;
 }
 
 nav ul li:hover ul {
