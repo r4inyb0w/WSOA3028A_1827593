@@ -6,6 +6,8 @@
     <link href="../CSS/protest.css" rel="stylesheet">
     <script src="/WSOA3028A_1827593/JS/index.js" async></script>
     <script src="/WSOA3028A_1827593/JS/footerInfo.js" async></script>
+    <script src="/WSOA3028A_1827593/JS/myTweets.js" async></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <meta name="description" content="Protest Page">
     <meta name="author" content="Samantha Thurgood 1827593">
@@ -24,7 +26,7 @@
     </title>
 </head>
 
-<body class="protestBackground" onload='createNavBar(); createFooterInfo()'>
+<body class="protestBackground" onload='createNavBar(); createFooterInfo(); createTweet()'>
     <nav></nav>
     <h1 class="protestPanel">
         Purple Flower Protest
@@ -56,13 +58,7 @@
             you plant and
             I will post them here! Let's spread the movement and have a place for discussion.
         </p>
-        <!-- /if i cant figure out the better stuff 
-        <p style="width: 450px; padding-left: 20%;">
-            <a class="twitter-timeline" href="https://twitter.com/FlowerProtest89?ref_src=twsrc%5Etfw">Tweets by
-                FlowerProtest89</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </p>-->
-        <p id="tweet">
+        <p style="width: 100%" id="tweet">
 
         </p>
     </section>
