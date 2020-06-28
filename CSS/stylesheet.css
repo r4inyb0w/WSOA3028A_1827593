@@ -69,6 +69,13 @@ footer{
     margin-left: 0;
 }
 
+footer.footerPush{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 15%;
+}
+
 .center{
     display: block;
     margin-left: auto;
@@ -276,5 +283,20 @@ nav ul li ul li a:hover{
 
     nav ul li ul li{
         width: 200px;
+    }
+}
+
+/*for IpadPro*/
+@media(min-width: 1024px) and (orientation:portrait){
+   
+    section.homePanel {
+        padding-bottom: 22%;
+    }
+
+    footer.tablet{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 10%;
     }
 }
