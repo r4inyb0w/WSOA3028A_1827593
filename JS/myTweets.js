@@ -13,4 +13,8 @@ function createTweet() {
     result = Tweets[num].tweet.toString();
 
     document.getElementById("tweet").innerHTML = result;
+
+    twttr.widgets.load(
+        document.getElementById("tweet")
+    );
 }

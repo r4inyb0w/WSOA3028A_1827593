@@ -17,6 +17,12 @@
     text-align: center;
 }
 
+
+.twitter-tweet{
+    margin:auto;
+}
+
+
 /*phone*/
 @media(min-width: 320px) and (max-width: 480px){
     .protestPanel {
