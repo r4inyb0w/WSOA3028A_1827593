@@ -1,4 +1,4 @@
-/*//const proxyurl = "https://cors-anywhere.herokuapp.com/";
+//const proxyurl = "https://cors-anywhere.herokuapp.com/";
 const url = "https://api.twitter.com/1.1/search/tweets.json?q=%23PurpleFlowerProtest89&result_type=popular";
 var myHeaders = new Headers();
 
@@ -13,7 +13,7 @@ fetch(url, { headers: 'Access-Control-Allow-Origin' + myHeaders })
     .catch((error) => console.warn("My Warning", error));
 
 console.log("yo!");
-*/
+/*
 
 function createNode(elem) {
     return document.createElement(elem);
