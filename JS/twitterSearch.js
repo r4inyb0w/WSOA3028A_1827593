@@ -1,4 +1,4 @@
-//const proxyurl = "https://cors-anywhere.herokuapp.com/";
+/*//const proxyurl = "https://cors-anywhere.herokuapp.com/";
 const url = "https://api.twitter.com/1.1/search/tweets.json?q=%23PurpleFlowerProtest89&result_type=popular";
 var myHeaders = new Headers();
 
@@ -44,15 +44,4 @@ fetch(url, { headers: 'Access-Control-Allow-Origin' })
     .catch(function (error) {
         console.log(JSON.stringify(error));
     });
-
-
-/*
-
-fetch('people.json').then(function (response) {
-   return response.json();
-}).then(function (obj) {
-   console.log(obj);
-}).catch(function (error) {
-   console.error("Something went wrong: ");
-   console.error(error);
-});*/
+*/
